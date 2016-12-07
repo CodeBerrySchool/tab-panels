@@ -1,0 +1,31 @@
+.tab-panels ul {
+  margin: 0;
+}
+
+.tab-panels ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.tab-panels ul li {
+  display: inline-block;
+  background-color: #BBDEFB;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.tab-panels ul li:hover,
+.tab-panels ul li.active {
+  background-color: #2196F3;
+}
+
+.tab-panels .panel {
+  display: none;
+  background-color: #BBDEFB;
+  padding: 5px;
+  min-height: 200px;
+}
+
+.tab-panels .panel.active {
+  display: block;
+}
