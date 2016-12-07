@@ -3,32 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <title>Tab panels</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <div class="tab-panels">
     
-    <ul class="tabs">
-      <li class="active"><a href="#panel-01">Tab 01</a></li>
-      <li><a href="#panel-02">Tab 02</a></li>
-      <li><a href="#panel-03">Tab 03</a></li>
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#panel-01" data-toggle="tab">Tab 01</a></li>
+      <li><a href="#panel-02" data-toggle="tab">Tab 02</a></li>
+      <li><a href="#panel-03" data-toggle="tab">Tab 03</a></li>
     </ul>
 
-    <div id="panel-01" class="panel active">
-      Panel 01
-    </div> <!-- /.panel -->
+    <div class="tab-content">
+      <div id="panel-01" class="tab-pane active">
+        Panel 01
+      </div> <!-- /.panel -->
 
-    <div id="panel-02" class="panel">
-      Panel 02
-    </div> <!-- /.panel -->
+      <div id="panel-02" class="tab-pane">
+        Panel 02
+      </div> <!-- /.panel -->
 
-    <div id="panel-03" class="panel">
-      Panel 03
-    </div> <!-- /.panel -->
+      <div id="panel-03" class="tab-pane">
+        Panel 03
+      </div> <!-- /.panel -->      
+    </div> <!-- /.tab-content -->
 
   </div> <!-- /.tab-panels -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="main.js"></script>
 </body>
 </html>
